@@ -18,11 +18,11 @@
 
 > Remember to save your work. Any files created in Colab will be lost if you don't save them elsewhere (Download).
 
-#### How to Download Kaggle Dataset to Colab?
+### C. Code Locally, Run in Colab (Hybrid)
 
-# 
+> See: [Connect notebooks to Colab servers](https://marketplace.visualstudio.com/items?itemName=google.colab)>
 
-### Prerequisite
+## How to Download Kaggle Dataset to Colab?
 
 First, obtain your API token from Kaggle:
 
@@ -43,7 +43,3 @@ os.environ['KAGGLE_USERNAME'] = "KAGGLE_COLAB"
 dataset_name = "shuyangli94/food-com-recipes-and-user-interactions"
 !kaggle datasets download -d {dataset_name} 
 ```
-
-### C. Code Locally, Run in Colab (Hybrid)
-
-> See: [Connect notebooks to Colab servers](https://marketplace.visualstudio.com/items?itemName=google.colab)>
